@@ -35,10 +35,10 @@ h1 {
 h3 {
     background-color: var(--color-tres);
     color:  var(--color-dos);
-    font-size: 20px;
+    font-size: 25px;
     margin: 0px;
     display: inline-block;
-    padding: 20px 400px 10px 400px;
+    padding: 20px 400px 20px 400px;
     text-align: center;
 }
 .logo {
@@ -84,10 +84,30 @@ section {
     padding: 10px;
     display: inline-block;
 }
+h4 {
+    background-color: var(--color-cuatro);
+    color:  var(--color-uno);
+    font-size: 25px;
+    margin: 0px;
+    display: inline-block;
+    padding: 20px 400px 20px 400px;
+    text-align: center;
+}
+h5{
+    background-color: var(--color-tres);
+    color:  var(--color-dos);
+    font-size: 15px;
+    margin: 0px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
 
 section p{
-    width: 500px;
-    height: 10px;
+    width: 800px;
+    height: 40px;
+    margin: 20px;
+    padding: 20px;
 }
 
 figure img{
