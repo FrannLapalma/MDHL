@@ -1,10 +1,107 @@
+*{
+    padding: 0px;
+	margin: 0 px;
+	box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+:root{
+    --color-uno: #00425A;
+    --color-dos: #1F8A70;
+    --color-tres: #BFDB38;
+    --color-cuatro: #FC7300;
+}
+header{
+    background-color: var(--color-uno);
+    width: 1200px; 
+    padding: 30px;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: var(--color-dos);
+    background-color: white;
+    box-shadow: 50px;
+}
+
+.banner{
+    width: 800px;
+    margin: 0px;
+    border: 2px solid #1F8A70;
+    border-style:ridge;
 }
 
 h3 {
-    background-color: black;
-    color: white;
+    background-color: var(--color-tres);
+    color:  var(--color-dos);
+    font-size: 20px;
+    margin: 0px;
+    display: inline-block;
+    padding: 20px 400px 10px 400px;
     text-align: center;
+}
+.logo {
+    width: 100px;
+    margin: 0px;
+    border: 2px solid #1F8A70;
+    border-style:ridge;
+}
+
+main{
+    background-color: var(--color-dos);
+}
+
+aside{
+    display: inline-block;
+}
+nav{
+    background-color: var(--color-uno);
+    border: 2px solid  var(--color-dos);
+    display: inline-block;
+
+}
+nav a{
+    color: var(--color-uno);
+    background-color:var(--color-dos);
+    border: 2px solid white;
+    height: 50px;
+    width: 200px;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover{
+    background-color: var(--color-cuatro);
+    color:var(--color-dos);
+    border-color: var(--color-uno);
+}
+
+section {
+    /* background-color: var(--color-dos); */
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+section p{
+    width: 500px;
+    height: 10px;
+}
+
+figure img{
+    background-color: var(--color-tres);
+    border-color: var(--color-tres);
+    display: inline-block;
+    width: 500px;
+    margin: 30px;
+    padding: 20px;
+}
+
+footer{
+    background-color: var(--color-cuatro);
+    color:  var(--color-dos);
+    align-content: center;
+    padding: 20px;
 }
