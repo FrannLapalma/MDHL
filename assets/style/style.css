@@ -72,6 +72,7 @@ aside{
 }
 nav{
     display: inline-block;
+    position: absolute;
 }
 nav a{
     color: var(--color-uno);
