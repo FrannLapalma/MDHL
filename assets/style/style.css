@@ -19,8 +19,7 @@ header{
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem
-    
+    gap: 1rem;    
 }
 
 header img {  
@@ -37,64 +36,64 @@ h1 {
 }
 
 nav{
-    background-color: var(--color-dos);
+    background-color: var(--color-uno);
     display: flex;
-    align-items:baseline;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 nav a{
-    color: var(--color-tres);
-    background-color:var(--color-dos);
+    color: var(--color-uno);
+    background-color:var(--color-tres);
+    border: 1px solid var(--color-uno);
     width: 15rem;
     height: 3rem;
     padding: 1rem;
     text-align: center;
 }
 a:hover{
-    background-color: var(--color-tres);
-    color:var(--color-dos);
-    border-color: var(--color-uno);
+    background-color: var(--color-cuatro);
+    color:var(--color-uno);
+    border-color: var(--color-dos);
 }
 main{
     background-color: var(--color-dos);
+    min-height: 79vh;
+    padding: 2rem;
 }
 
 section {
-    width: 700px;
-    background-color: var(--color-dos);
-    margin-left: 20%;
-    display: inline-block;
-    position: static;
+    background-color: var(--color-tres);
+    padding: 1rem;    
 }
 h4 {
-    background-color: var(--color-tres);
-    color:  var(--color-uno);
-    width: 100%;
-    font-size: 25px;
-    padding: 10px;
-    text-align: center;
-}
-h5 {
     background-color: var(--color-cuatro);
     color:  var(--color-uno);
-    width: 80%;
+    font-size: 25px;
+    padding: 1rem;
+    text-align: center;
+}
+h5{
+    background-color: var(--color-uno);
+    color:  var(--color-dos);
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+}
+h6{
+    background-color: var(--color-uno);
+    color:  var(--color-tres);
     font-size: 20px;
     padding: 1rem;
     text-align: center;
 }
 section p{
-    width: 75%;
-    height: 50%;
     padding: 1rem;
+    background-color: var(--color-dos);
 }
 figure img{
     background-color: var(--color-tres);
-    border-color: var(--color-tres);
-    display: inline-block;
-    width: 500px;
-    margin-left: 25%;
-    padding: 20px;
+    width: 100%;
+    padding: 1rem;
 }
 footer{
     background-color: white;
