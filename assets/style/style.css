@@ -41,6 +41,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 nav a{
     color: var(--color-uno);
     background-color:var(--color-tres);
@@ -50,11 +51,13 @@ nav a{
     padding: 1rem;
     text-align: center;
 }
+
 a:hover{
     background-color: var(--color-cuatro);
     color:var(--color-uno);
     border-color: var(--color-dos);
 }
+
 main{
     background-color: var(--color-dos);
     min-height: 79vh;
@@ -65,38 +68,66 @@ section {
     background-color: var(--color-tres);
     padding: 1rem;    
 }
+
 h4 {
-    background-color: var(--color-cuatro);
-    color:  var(--color-uno);
+    background-color: var(--color-uno);
+    color:  var(--color-dos);
     font-size: 25px;
     padding: 1rem;
     text-align: center;
 }
+
 h5{
-    background-color: var(--color-uno);
-    color:  var(--color-dos);
+    background-color: var(--color-cuatro);
+    color:  var(--color-uno);
     font-size: 20px;
     padding: 1rem;
     text-align: center;
 }
+
 h6{
-    background-color: var(--color-uno);
-    color:  var(--color-tres);
-    font-size: 20px;
+    background-color: var(--color-dos);
+    color:  var(--color-uno);
+    font-size: 1em;
     padding: 1rem;
-    text-align: center;
 }
+
 section p{
     padding: 1rem;
     background-color: var(--color-dos);
+    color: var(--color-uno);
+    font-size: 1rem;
 }
+
+table{
+    width: 100%;
+    border: 3px solid var(--color-uno);
+    background-color: var(--color-cuatro);
+    border-collapse: collapse;
+    border-spacing: 1em;
+    color: var(--color-uno);
+}
+
+td{
+    border: 2px solid var(--color-uno);
+    margin: 3em;
+    padding: 1em;
+    font-size: 1em;
+}
+
 figure img{
     background-color: var(--color-tres);
     width: 100%;
     padding: 1rem;
 }
+
 footer{
-    background-color: white;
-    color:  var(--color-uno);
-    padding: 10px;
+    background-color: var(--color-cuatro);
+    color: var(--color-uno);
+    font-size: 1rem;
+    font-style: italic;
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
