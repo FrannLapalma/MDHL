@@ -66,7 +66,7 @@ main{
 }
 
 section {
-    background-color: var(--color-tres);
+    background-color: white;
     padding: 1rem;    
 }
 
@@ -86,16 +86,33 @@ h5{
     text-align: center;
 }
 
+dl{
+    color:  var(--color-uno);
+    padding: 1rem;
+}
+dl > dt{
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+}
+dd{
+    display: inline-block;
+    font-size: 1em;
+}
+.list-inline-block {
+    display: inline-block;
+}
+
 h6{
-    background-color: var(--color-dos);
+    display: inline-block;
     color:  var(--color-uno);
     font-size: 1em;
     padding: 1rem;
 }
 
 section p{
+    display: inline-block;
     padding: 1rem;
-    background-color: var(--color-dos);
     color: var(--color-uno);
     font-size: 1rem;
 }
@@ -109,13 +126,13 @@ table{
     color: var(--color-uno);
 }
 th{
-    background-color: var(--color-cuatro)
+    border: 2px solid var(--color-uno);
 }
+
 td{
     border: 2px solid var(--color-uno);
-    background-color: var(--color-tres);
-    margin: 3em;
-    padding: 1em;
+    margin: 1em;
+    padding: 2em;
     font-size: 1em;
 }
 
