@@ -14,6 +14,7 @@
 header{
     background-color: var(--color-uno);
     min-width: 10vh; 
+    height: 20vh;
     display: flex;
     padding: 1rem;
     align-content: center;
@@ -107,9 +108,12 @@ table{
     border-spacing: 1em;
     color: var(--color-uno);
 }
-
+th{
+    background-color: var(--color-cuatro)
+}
 td{
     border: 2px solid var(--color-uno);
+    background-color: var(--color-tres);
     margin: 3em;
     padding: 1em;
     font-size: 1em;
