@@ -14,7 +14,7 @@
 header{
     background-color: var(--color-uno);
     min-width: 10vh; 
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     padding: 1rem;
     align-content: center;
@@ -69,6 +69,11 @@ section {
     background-color: white;
     padding: 1rem;    
 }
+section p{
+    padding: 1rem;
+    color: var(--color-uno);
+    font-size: 1rem;
+}
 
 h4 {
     background-color: var(--color-uno);
@@ -81,9 +86,28 @@ h4 {
 h5{
     background-color: var(--color-cuatro);
     color:  var(--color-uno);
-    font-size: 20px;
+    font-size: 1rem;
     padding: 1rem;
-    text-align: center;
+}
+
+table{
+    width: 100%;
+    border: 3px solid var(--color-uno);
+    background-color: var(--color-cuatro);
+    border-collapse: collapse;
+    border-spacing: 1em;
+    color: var(--color-uno);
+}
+
+th{
+    border: 2px solid var(--color-uno);
+}
+
+td{
+    border: 2px solid var(--color-uno);
+    margin: 1em;
+    padding: 2em;
+    font-size: 1rem;
 }
 
 dl{
@@ -103,37 +127,39 @@ dd{
     display: inline-block;
 }
 
-h6{
-    display: inline-block;
-    color:  var(--color-uno);
-    font-size: 1em;
-    padding: 1rem;
-}
-
-section p{
-    display: inline-block;
-    padding: 1rem;
+ol{
     color: var(--color-uno);
     font-size: 1rem;
+    padding: 0;    
 }
 
-table{
-    width: 100%;
-    border: 3px solid var(--color-uno);
+li{
+    margin-left: 0px;
+    padding: 1rem;
+    list-style-type:none;
+}
+.list-head {
     background-color: var(--color-cuatro);
-    border-collapse: collapse;
-    border-spacing: 1em;
-    color: var(--color-uno);
-}
-th{
-    border: 2px solid var(--color-uno);
+    color:  var(--color-uno);
+    font-size: 1rem;
+    padding: 1rem;
 }
 
-td{
-    border: 2px solid var(--color-uno);
-    margin: 1em;
-    padding: 2em;
-    font-size: 1em;
+.list-regulation{
+    list-style-type:decimal;
+    padding: 0;
+    margin: 0;
+}
+
+.ordered-list-fields{
+    list-style-type:lower-alpha;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    color:  var(--color-uno);
+    font-size: 1rem;
 }
 
 figure img{
