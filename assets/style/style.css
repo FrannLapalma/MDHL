@@ -116,6 +116,37 @@ td > iframe{
     height: 150px;    
 }
 
+form {
+    background-color: var(--color-tres);    
+}
+
+fieldset {
+    border: 0px;
+    margin: 0.5rem;
+}
+
+label{
+    
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;     
+}
+
+input{
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+#submit {
+    padding: 1rem;
+    background-color: var(--color-cuatro);
+}
+
 dl{
     color:  var(--color-uno);
     padding: 1rem;
