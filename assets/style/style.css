@@ -111,6 +111,11 @@ td{
     font-size: 1rem;
 }
 
+td > iframe{
+    width: 150px;
+    height: 150px;    
+}
+
 dl{
     color:  var(--color-uno);
     padding: 1rem;
