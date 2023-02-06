@@ -47,8 +47,8 @@ nav a{
     color: var(--color-uno);
     background-color:var(--color-tres);
     border: 1px solid var(--color-uno);
-    width: 15rem;
-    height: 3rem;
+    width: 12rem;
+    height: 4rem;
     padding: 1rem;
     text-align: center;
 }
