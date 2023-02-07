@@ -47,8 +47,8 @@ nav a{
     color: var(--color-uno);
     background-color:var(--color-tres);
     border: 1px solid var(--color-uno);
-    width: 15rem;
-    height: 3rem;
+    width: 12rem;
+    height: 4rem;
     padding: 1rem;
     text-align: center;
 }
@@ -67,7 +67,8 @@ main{
 
 section {
     background-color: white;
-    padding: 1rem;    
+    color: var(--color-uno);
+    padding: 1rem;
 }
 section p{
     padding: 1rem;
@@ -110,6 +111,42 @@ td{
     font-size: 1rem;
 }
 
+td > iframe{
+    width: 150px;
+    height: 150px;    
+}
+
+form {
+    background-color: var(--color-tres);    
+}
+
+fieldset {
+    border: 0px;
+    margin: 0.5rem;
+}
+
+label{
+    
+    padding: 0.5rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;     
+}
+
+input{
+    background-color: white;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+
+
+#submit {
+    padding: 1rem;
+    background-color: var(--color-cuatro);
+}
+
 dl{
     color:  var(--color-uno);
     padding: 1rem;
@@ -138,17 +175,10 @@ li{
     padding: 1rem;
     list-style-type:none;
 }
-.list-head {
-    background-color: var(--color-cuatro);
-    color:  var(--color-uno);
-    font-size: 1rem;
-    padding: 1rem;
-}
 
 .list-regulation{
     list-style-type:decimal;
-    padding: 0;
-    margin: 0;
+    margin-left: 1.5rem;
 }
 
 .ordered-list-fields{
