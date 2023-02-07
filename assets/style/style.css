@@ -32,7 +32,6 @@ h1 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2rem;
     color: var(--color-tres);
-    /* background-color: var(--color-dos); */
     text-align: center;
 }
 
@@ -91,6 +90,12 @@ h5{
     padding: 1rem;
 }
 
+h6{
+    background-color: var(--color-tres);
+    color:  var(--color-uno);
+    padding: 1rem;
+}
+
 table{
     width: 100%;
     border: 3px solid var(--color-uno);
@@ -116,14 +121,6 @@ td > iframe{
     height: 150px;    
 }
 
-form {
-    background-color: var(--color-tres);    
-}
-
-form > h3{
-    margin: 1rem;
-}
-
 fieldset {
     display: flex;
     flex-wrap: wrap;
@@ -134,17 +131,8 @@ fieldset {
 }
 
 input{
-    background-color: white;
     margin: 1rem;
     padding: 0.5rem;
-}
-
-.long-input{
-    width: 50rem;
-}
-
-.short-input{
-    width: 20rem;
 }
 
 .radius-column-school{
@@ -153,7 +141,7 @@ input{
     height: 12rem;
     align-items: flex-start;
 }
-
+ 
 .checkbox-column-position{
     flex-direction: column;
     width: 20rem;

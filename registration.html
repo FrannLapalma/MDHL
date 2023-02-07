@@ -29,19 +29,23 @@
         <form action="show_data.html" method="get">
           <fieldset>
             <label for="firstname">Player's First Name:
-              <input type="text" name="firstname" id="firstname" class="short-input">
+              <input type="text" name="firstname" id="firstname">
             </label>
             <label for="lastname">Last Name:
-              <input type="text" name="lastname" id="lastname" class="short-input">
+              <input type="text" name="lastname" id="lastname">
             </label>
+          </fieldset>
+          <fieldset>
             <label for="adress">Street Adress:
-              <input type="text" name="adress" id="adress" class="long-input">
+              <input type="text" name="adress" id="adress">
             </label>
+          </fieldset>
+          <fieldset>
             <label for="city">City:
-              <input type="text" name="city" id="city" class="short-input">
+              <input type="text" name="city" id="city">
             </label>
             <label for="zip-code">Zip Code:
-              <input type="number" name="zip-code" id="zip-code" min="1000" max="2000" class="short-input">
+              <input type="number" name="zip-code" id="zip-code" min="1000" max="2000">
             </label>
           </fieldset>
           <fieldset>
@@ -75,8 +79,8 @@
                 <input type="radio" name="5th" id="grade6" value="5th">5th             
             </label>
           </fieldset>
-            <h3>Which elementary school do you live near?</h3>
-            <h3>Closet School:</h3>
+            <h5>Which elementary school do you live near?</h5>
+            <h6>Closet School:</h6>
           <fieldset class="radius-column-school">
             <label for="school1">AJ Katzenmaier
                 <input type="radio" name="school" id="school1" value="AJ Katzenmaier">
@@ -86,7 +90,7 @@
             </label>
             <label for="school3">Greenbay
                 <input type="radio" name="school" id="school3" value="Greenbay">
-            </label>            
+            </label>
             <label for="school4">North Elementary
                 <input type="radio" name="school" id="school4" value="North Elementary">
             </label>
@@ -97,7 +101,7 @@
                 <input type="radio" name="school" id="school" value="South Elementary">
             </label>
           </fieldset>
-          <h3>What position(s) do you normally play(check all that apply)</h3>
+          <h5>What position(s) do you normally play(check all that apply)</h5>
           <fieldset class="checkbox-column-position">            
             <label for="position1">
                 Forward <input type="checkbox" name="position" id="position1" value="Forward">
@@ -112,7 +116,7 @@
                 Goalkeeper<input type="checkbox" name="position" id="position4" value="Goalkeeper">
             </label>
           </fieldset>
-          <h3>Uniform Size:</h3>
+          <h5>Uniform Size:</h5>
           <fieldset class="radius-column-uniform">
             <label for="uniform1">Youth Smal
                 <input type="radio" name="uniform" id="uniform1" value="Youth Smal">
@@ -136,7 +140,7 @@
                 <input type="radio" name="uniform" id="uniform7" value="Small">
             </label>
           </fieldset>          
-            <h3>Permission to Play</h3>
+            <h5>Permission to Play</h5>
             <p>I, the parent or guardian of the minor registrant, agree that
               the registrant and I will abide by all the rules of the Mighty
               Ducks Hockey League (MDHL). In recognizing the possibility of
@@ -155,7 +159,11 @@
               addition, by signing below, lalso acknowledge that I have read
               the cancellation policy and agree to its terms.
             </p>
-            <p>Parent/GuardianSignatur:</p>
+          <fieldset>
+            <label for="signature">Parent/GuardianSignatur:
+              <input type="text" name="signature" id="signature">
+            </label>
+          </fieldset>
           <fieldset>
               <label for="date">Date:
                 <input type="date" name="date" id="date">
@@ -166,6 +174,9 @@
           </fieldset>
         </form>
       </section>
+      <figure>
+        <img src="./assets/img/design1_image1.jpg" alt="Mighty Ducks Hockey League">
+    </figure>
     </main>
     <footer>
       <p>Mighty Ducks Hockey League (MDHL) 2023</p>
