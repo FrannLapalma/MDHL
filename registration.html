@@ -29,29 +29,33 @@
         <form action="show_data.html" method="get">
           <fieldset>
             <label for="firstname">Player's First Name:
-              <input type="text" name="firstname" id="firstname">
+              <input type="text" name="firstname" id="firstname" class="short-input">
             </label>
             <label for="lastname">Last Name:
-              <input type="text" name="lastname" id="lastname">
+              <input type="text" name="lastname" id="lastname" class="short-input">
             </label>
             <label for="adress">Street Adress:
-              <input type="text" name="adress" id="adress">
+              <input type="text" name="adress" id="adress" class="long-input">
             </label>
             <label for="city">City:
-              <input type="text" name="city" id="city">
+              <input type="text" name="city" id="city" class="short-input">
             </label>
             <label for="zip-code">Zip Code:
-              <input type="number" name="zip-code" id="zip-code" min="1000" max="2000">
+              <input type="number" name="zip-code" id="zip-code" min="1000" max="2000" class="short-input">
             </label>
+          </fieldset>
+          <fieldset>
             <label for="birth-date">Birth Date (mm/dd/yyyy):
               <input type="date" name="birth-date" id="birth-date">
             </label>
             <label for="gender1">Gender:
-                Female<input type="radio" name="female" id="gender1" value="Female">
+                <input type="radio" name="female" id="gender1" value="Female">Female
             </label>
             <label for="gender2">
-                Male<input type="radio" name="male" id="gender2" value="Male">
+                <input type="radio" name="male" id="gender2" value="Male">Male
             </label>
+          </fieldset>
+          <fieldset>
             <label for="grade1">Grade:
               <input type="radio" name="Pre-School" id="grade1" value="Pre-School">Pre-School
             </label>
@@ -71,9 +75,9 @@
                 <input type="radio" name="5th" id="grade6" value="5th">5th             
             </label>
           </fieldset>
-          <fieldset>
             <h3>Which elementary school do you live near?</h3>
             <h3>Closet School:</h3>
+          <fieldset class="radius-column-school">
             <label for="school1">AJ Katzenmaier
                 <input type="radio" name="school" id="school1" value="AJ Katzenmaier">
             </label>            
@@ -93,8 +97,8 @@
                 <input type="radio" name="school" id="school" value="South Elementary">
             </label>
           </fieldset>
-          <fieldset>
-            <h3>What position(s) do you normally play(check all that apply)</h3>
+          <h3>What position(s) do you normally play(check all that apply)</h3>
+          <fieldset class="checkbox-column-position">            
             <label for="position1">
                 Forward <input type="checkbox" name="position" id="position1" value="Forward">
             </label>
@@ -108,8 +112,8 @@
                 Goalkeeper<input type="checkbox" name="position" id="position4" value="Goalkeeper">
             </label>
           </fieldset>
-          <fieldset>
-            <h3>Uniform Size:</h3>
+          <h3>Uniform Size:</h3>
+          <fieldset class="radius-column-uniform">
             <label for="uniform1">Youth Smal
                 <input type="radio" name="uniform" id="uniform1" value="Youth Smal">
             </label>
@@ -131,28 +135,28 @@
             <label for="uniform7">Small
                 <input type="radio" name="uniform" id="uniform7" value="Small">
             </label>
-          </fieldset>
+          </fieldset>          
+            <h3>Permission to Play</h3>
+            <p>I, the parent or guardian of the minor registrant, agree that
+              the registrant and I will abide by all the rules of the Mighty
+              Ducks Hockey League (MDHL). In recognizing the possibility of
+              physical injury associated with hockey and in consideration for
+              the “League" accepting the registrant for its hockey programs
+              and activities, I hereby release, discharge, and/or otherwise
+              indemnify MDHL, their employees and associated personnel and
+              volunteers, including the facilities used for practices and
+              games, against any claim by or on behalf of the registrant as a
+              result of the registrant's participation in the
+              programand/orbeing transported to or from MDHL sponsored
+              activities, which transportation.
+            </p>
+            <p>
+              By signing below, I herebyagree and authorizethe above. In
+              addition, by signing below, lalso acknowledge that I have read
+              the cancellation policy and agree to its terms.
+            </p>
+            <p>Parent/GuardianSignatur:</p>
           <fieldset>
-              <h3>Permission to Play</h3>
-              <p>I, the parent or guardian of the minor registrant, agree that
-                the registrant and I will abide by all the rules of the Mighty
-                Ducks Hockey League (MDHL). In recognizing the possibility of
-                physical injury associated with hockey and in consideration for
-                the “League" accepting the registrant for its hockey programs
-                and activities, I hereby release, discharge, and/or otherwise
-                indemnify MDHL, their employees and associated personnel and
-                volunteers, including the facilities used for practices and
-                games, against any claim by or on behalf of the registrant as a
-                result of the registrant's participation in the
-                programand/orbeing transported to or from MDHL sponsored
-                activities, which transportation.
-              </p>
-              <p>
-                By signing below, I herebyagree and authorizethe above. In
-                addition, by signing below, lalso acknowledge that I have read
-                the cancellation policy and agree to its terms.
-              </p>
-              <p>Parent/GuardianSignatur:</p>
               <label for="date">Date:
                 <input type="date" name="date" id="date">
               </label>

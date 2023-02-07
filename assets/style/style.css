@@ -120,18 +120,17 @@ form {
     background-color: var(--color-tres);    
 }
 
-fieldset {
-    border: 0px;
-    margin: 0.5rem;
+form > h3{
+    margin: 1rem;
 }
 
-label{
-    
-    padding: 0.5rem;
+fieldset {
     display: flex;
-    align-content: center;
+    flex-wrap: wrap;
+    border: 0px;
+    margin: 1rem;
+    gap: 1rem;
     align-items: center;
-    flex-wrap: wrap;     
 }
 
 input{
@@ -140,7 +139,34 @@ input{
     padding: 0.5rem;
 }
 
+.long-input{
+    width: 50rem;
+}
 
+.short-input{
+    width: 20rem;
+}
+
+.radius-column-school{
+    flex-direction: column;
+    width: 20rem;
+    height: 12rem;
+    align-items: flex-start;
+}
+
+.checkbox-column-position{
+    flex-direction: column;
+    width: 20rem;
+    height: 7rem;
+    align-items: flex-start;
+}
+
+.radius-column-uniform{
+    flex-direction: column;
+    width: 20rem;
+    height: 15rem;
+    align-items: flex-start;
+}
 
 #submit {
     padding: 1rem;
